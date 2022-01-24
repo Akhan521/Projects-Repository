@@ -1,0 +1,12 @@
+Rules for Uno:
+The goal of the game is to match cards until either opponent runs out of cards.
+Once a player finishes their deck of cards, the game ends and they win.
+You can match cards either by color, value, or have a chance to sabotage your opponent by drawing
+wild cards, draw 1's, or draw 2's. A wild card can be used to set a new color to match.
+A draw 1 forces the opponent to draw 1 card, and a draw 2 works in a similar manner.
+Wild cards can be used at anytime. However, draw 1's and 2's can only be used when colors match
+or when the card that needs to be matched is also a draw 1/2 card.
+Have Fun and Don't Sweat It If You Lose!
+
+Card 1 = [Green  3]
+Card 2 = [Red  3]
