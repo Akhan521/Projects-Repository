@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
     unsigned int freq1,freq2,freq3,freq4,freq5,freq6; //# of times each value occurs
     //Initialize Variables
     die = rand()%6+1; //Range: [1,6]
-    numLps = 360;      //36 loops
+    numLps = 36;      //36 loops
     max = min = die;  //Set starting point for comparisons
     freq1 = freq2 = freq3 = freq4 = freq5 = freq6 = 0; //Initialize frequencies
     //Map Inputs to Outputs -> Process

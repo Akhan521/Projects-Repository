@@ -31,8 +31,8 @@ int main(int argc, char** argv) {
                  freq13,freq14,freq15,freq16,freq17,freq18;//# of times each value occurs
     //Initialize Variables
     sum = (rand()%6+1) + (rand()%6+1) + (rand()%6+1) ; //Range: [3,18]
-    numLps = 2160;      //2160 loops (There are 216 possible combinations of 3 dice-> 6*6*6)
-    max = min = sum;    //Set starting point for comparisons
+    numLps = 216;      //216 loops (There are 216 possible combinations of 3 dice-> 6*6*6)
+    max = min = sum;   //Set starting point for comparisons
     freq1 = freq2 = freq3 = freq4 = freq5 = freq6 = 0; //Initialize frequencies
     freq7 = freq8 = freq9 = freq10 = freq11 = freq12 = 0;
     freq13 = freq14 = freq15 = freq16 = freq17 = freq18 = 0;
