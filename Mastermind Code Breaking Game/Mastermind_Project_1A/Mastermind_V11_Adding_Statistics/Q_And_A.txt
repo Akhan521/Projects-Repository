@@ -1,0 +1,62 @@
+//Correct Digits in the Correct place:
+How many times should 4 right come up? Just Once.
+1/10 chance for the 1st digit to be right.
+1/10 chance for the 2nd digit to be right.
+1/10 chance for the 3rd digit to be right.
+1/10 chance for the 4th digit to be right.
+& 1 combination to choose 4 from 4.
+-> (1/10)*(1/10)*(1/10)*(1/10)*4 = 0.0001*10000 = 1 time.
+
+How many times should 3 right come up?
+1/10 chance for the 1st digit to be right.
+1/10 chance for the 2nd digit to be right.
+1/10 chance for the 3rd digit to be right. 
+9/10 chance for the 4th digit to be wrong.
+& 4 different combinations to choose 3 from 4.
+-> (1/10)*(1/10)*(1/10)*(9/10)*4 = 0.0036*10000 = 36 times.
+
+How many times should 2 right come up?
+1/10 chance for the 1st digit to be right.
+1/10 chance for the 2nd digit to be right.
+9/10 chance for the 3rd digit to be wrong.
+9/10 chance for the 4th digit to be wrong.
+& 6 different combinations to choose 2 from 4.
+-> (1/10)*(1/10)*(9/10)*(9/10)*6 = 0.0486*10000 = 486 times.
+
+How many times should 1 right come up?
+1/10 chance for the 1st digit to be right.
+9/10 chance for the 2nd digit to be wrong.
+9/10 chance for the 3rd digit to be wrong.
+9/10 chance for the 4th digit to be wrong.
+& 4 different combinations to choose 2 from 4.
+-> (1/10)*(9/10)*(9/10)*(9/10)*4 = 0.2916*10000 = 2916 times.
+
+How many times should 0 right come up?
+9/10 chance for the 1st digit to be right.
+9/10 chance for the 2nd digit to be right.
+9/10 chance for the 3rd digit to be wrong.
+9/10 chance for the 4th digit to be wrong.
+& 1 combination to choose 0 from 4.
+-> (9/10)*(9/10)*(9/10)*(9/10)*1 = 0.6561*10000 = 6561 times.
+
+//Correct Digits in the Wrong Spot:
+How many times should 4 right in the wrong spot come up? 64 times.
+
+How many times should 3 right in the wrong spot come up? 662 times.
+
+How many times should 2 right in the wrong spot come up? 1829 times.
+
+How many times should 1 right in the wrong spot come up? 3856 times.
+
+How many times should 0 right in the wrong spot come up? 3589 times.
+
+//Sums:
+How many times should 4 come up? 204 times.
+
+How many times should 3 come up? 1540 times.
+
+How many times should 2 come up? 2465 times.
+
+How many times should 1 come up? 3390 times.
+
+How many times should 0 come up? 2401 times.
