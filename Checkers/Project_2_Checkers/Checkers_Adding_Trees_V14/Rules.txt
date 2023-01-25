@@ -1,0 +1,24 @@
+Rules of Checkers:
+
+Checkers is a 2-player game that is played on an 8 x 8 board. Each player will be given
+12 pieces. These pieces can be either red or black. The pieces will be placed on the
+board in a certain manner. Pieces can only move diagonally forward. You are NOT allowed
+to move your pieces vertically or horizontally. 
+
+The goal of the game is to capture all of your opponent's game pieces. 
+In the event that you capture all of your opponent's pieces, you will be announced 
+the winner of the round. 
+
+In order to capture pieces, you have to "jump" opponent pieces. 
+To jump a piece, the square after the piece you'll be capturing must be empty. You will 
+move your piece into the square that is after the piece you'll be capturing and take your 
+opponent's piece. Moreover, if you are able to jump multiple pieces, you must jump all 
+capturable pieces during your turn. If you can capture more than one piece, you'll be 
+given the option to choose which piece you'd like to capture. 
+
+If a piece reaches the opposite end of the board, it becomes a King piece that is capable 
+of moving diagonally forward and backward. King pieces are allowed to move in either direction.
+Capturing a King piece is the same as capturing regular pieces. 
+
+If, during your turn, you have no legal moves to make, you will forfeit the game. If this is 
+the case, your opponent will receive all of your pieces, hence, winning the game.
